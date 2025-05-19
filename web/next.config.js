@@ -15,9 +15,9 @@ import "./src/env.js";
 // This decision is based on the current recommendation to avoid using Turbopack for critical projects, as it
 // is still evolving and may not yet be fully stable for production environments.
 
-module.exports = {
-  allowedDevOrigins: ['local-origin.dev', '*.local-origin.dev'],
-}
+// module.exports = {
+//   allowedDevOrigins: ['local-origin.dev', '*.local-origin.dev'],
+// }
 
 const config = {
   // For development mode
