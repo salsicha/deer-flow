@@ -19,6 +19,10 @@ import "./src/env.js";
 //   allowedDevOrigins: ['local-origin.dev', '*.local-origin.dev'],
 // }
 
+module.exports = {
+  crossOrigin: 'anonymous',
+}
+
 const config = {
   // For development mode
   turbopack: {
